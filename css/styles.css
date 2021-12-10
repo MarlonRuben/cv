@@ -1,0 +1,118 @@
+body{
+  background-color: #C1CFC0;
+  font-family: "Merriweather", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #77ACF1;
+  border-width: 10px;
+  height: 0px;
+  width: 10%;
+}
+
+h1{
+  color: white;
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+
+h3{
+    color: #03506F;
+}
+
+.container{
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.header{
+  background: #03506F;
+  color: white;
+  padding: 0.5rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+}
+
+.navContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li{
+  display: inline-block;
+}
+
+.navigation ul li a{
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+  background: #F0EBCC;
+  color: black;
+}
+
+.main{
+  padding-top: 20rem;
+
+}
+
+.footer{
+  background: #506D84;
+  padding: 4rem 0;
+  text-align: center;
+  margin-top: 6rem;
+  color:white;
+  bottom: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-widh: 767px){
+
+  .menu{
+    display: block;
+    cursor: pointer;
+  }
+
+
+
+
+  .navigation{
+    width: 100%;
+  }
+
+  .navigation ul li{
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .navigation ul li a{
+    display: block;
+    padding: 0.5rem 0;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+  }
+}
